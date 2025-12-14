@@ -1,0 +1,122 @@
+/* header css------------ */
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 35px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+
+
+/* General Navbar Styles */
+header {
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  backdrop-filter: blur(20px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide-header {
+  transform: translateY(-100%);
+}
+
+
+.logo img {
+  width: 55px;
+
+}
+
+/* Menu Links */
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.menu ul li a {
+  list-style: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #00bcd4;
+}
+
+/* underline line (initially width 0) */
+.menu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 3px;
+  background-color: #00bcd4;
+  transition: width 0.3s ease;
+}
+
+/* expand line on hover */
+.menu ul li a:hover::after {
+  width: 100%;
+}
+
+
+/* React Icons (hidden by default) */
+.menu-icon {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    display: none;
+    width: 50%;
+    background: #111;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+  }
+
+  .menu.active {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo img {
+    width: 55px;
+  }
+}

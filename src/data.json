@@ -1,0 +1,142 @@
+[
+    {
+        "Country": "Alandia",
+        "Population": 5200000,
+        "Rank": 1,
+        "Language": "Alandic",
+        "Capital": "Alora"
+    },
+    {
+        "Country": "Borevia",
+        "Population": 8500000,
+        "Rank": 2,
+        "Language": "Borean",
+        "Capital": "Borska"
+    },
+    {
+        "Country": "Celand",
+        "Population": 4300000,
+        "Rank": 3,
+        "Language": "Celic",
+        "Capital": "Celport"
+    },
+    {
+        "Country": "Dramora",
+        "Population": 12000000,
+        "Rank": 4,
+        "Language": "Dramish",
+        "Capital": "Dramon"
+    },
+    {
+        "Country": "Evaron",
+        "Population": 7600000,
+        "Rank": 5,
+        "Language": "Evari",
+        "Capital": "Evas City"
+    },
+    {
+        "Country": "Faland",
+        "Population": 2950000,
+        "Rank": 6,
+        "Language": "Falan",
+        "Capital": "Fara"
+    },
+    {
+        "Country": "Goravia",
+        "Population": 9800000,
+        "Rank": 7,
+        "Language": "Goran",
+        "Capital": "Gorast"
+    },
+    {
+        "Country": "Helvar",
+        "Population": 6100000,
+        "Rank": 8,
+        "Language": "Helvish",
+        "Capital": "Helvos"
+    },
+    {
+        "Country": "Istron",
+        "Population": 4400000,
+        "Rank": 9,
+        "Language": "Istrani",
+        "Capital": "Istria"
+    },
+    {
+        "Country": "Javora",
+        "Population": 15000000,
+        "Rank": 10,
+        "Language": "Javoran",
+        "Capital": "Javork"
+    },
+    {
+        "Country": "Koralia",
+        "Population": 5800000,
+        "Rank": 11,
+        "Language": "Koral",
+        "Capital": "Korava"
+    },
+    {
+        "Country": "Lunaris",
+        "Population": 10200000,
+        "Rank": 12,
+        "Language": "Lunari",
+        "Capital": "Lunave"
+    },
+    {
+        "Country": "Mordavia",
+        "Population": 7200000,
+        "Rank": 13,
+        "Language": "Mordic",
+        "Capital": "Mordav"
+    },
+    {
+        "Country": "Norvia",
+        "Population": 3100000,
+        "Rank": 14,
+        "Language": "Norvian",
+        "Capital": "Norvek"
+    },
+    {
+        "Country": "Orlavia",
+        "Population": 9000000,
+        "Rank": 15,
+        "Language": "Orlish",
+        "Capital": "Orlena"
+    },
+    {
+        "Country": "Pavrona",
+        "Population": 5100000,
+        "Rank": 16,
+        "Language": "Pavroni",
+        "Capital": "Pavris"
+    },
+    {
+        "Country": "Quendor",
+        "Population": 8700000,
+        "Rank": 17,
+        "Language": "Quendi",
+        "Capital": "Quendis"
+    },
+    {
+        "Country": "Ravenor",
+        "Population": 3900000,
+        "Rank": 18,
+        "Language": "Ravish",
+        "Capital": "Ravora"
+    },
+    {
+        "Country": "Soltara",
+        "Population": 6800000,
+        "Rank": 19,
+        "Language": "Soltan",
+        "Capital": "Soltris"
+    },
+    {
+        "Country": "Talvoria",
+        "Population": 11100000,
+        "Rank": 20,
+        "Language": "Talvoran",
+        "Capital": "Talvos"
+    }
+]
